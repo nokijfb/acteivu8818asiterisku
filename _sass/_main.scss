@@ -1,0 +1,865 @@
+body {
+	background: #006494;
+	color: #080708;
+	font-family: sans-serif, serif, monospace;
+	font-size: 13px;
+}
+
+.wrapper,
+.content {
+	width: 800px;
+	max-width: 99%;
+	margin: auto;
+	margin-top: 20px;
+	background: #bfb8bf;
+	border: 2px solid;
+	border-color: #fff8ff #000000 #000000 #fff8ff;
+	padding: 2px 0;
+}
+
+.topbar {
+	font-size: 13px;
+	font-weight: bold;
+	padding: .08em;
+	font-family: monospace;
+	text-transform: uppercase;
+	position: relative;
+	left: .1em;
+	bottom: .01em;
+}
+
+.default_title,
+.post_title {
+	padding: 2px 4px 3px 4px;
+	position: relative;
+
+	h1 {
+		color: #bfb8bf;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	img {
+		float: left;
+		width: 14px;
+		height: 14px;
+		margin: 0 3px 0 0;
+	}
+}
+
+.post_title {
+	h1 {
+		display: inline-block;
+	}
+
+	a {
+		color: #000000;
+	}
+
+	.btn {
+		background: #cccccc;
+		width: 13px;
+		height: 11px;
+		float: right;
+		border: 2px solid;
+		border-color: #fff8ff #000000 #000000 #fff8ff;
+
+		span {
+			font-size: 11px;
+			position: relative;
+			left: 2px;
+			top: -2px;
+		}
+
+		.fa-window-minimize {
+			font-size: 10px;
+			left: 1px;
+		}
+
+		.fa-window-maximize {
+			font-size: 10px;
+			left: 1px;
+		}
+	}
+
+	.btn_max {
+		margin: 0 3px 0 0;
+	}
+
+	.btn:active {
+		width: 12px;
+		height: 10px;
+	}
+}
+
+.dropdown-container {
+	position: relative;
+	display: inline-block;
+}
+
+.sub-dropdown-container {
+	position: relative;
+	display: block;
+}
+
+.dropdown-btn,
+.sub-dropdown-btn {
+	background-color: #bfb8bf;
+	color: black;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+}
+
+.dropdown-content,
+.sub-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #bfb8bf;
+	min-width: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a,
+.sub-dropdown-content a {
+	border: 1px solid;
+	border-color: #ddd #999 #999 #ddd;
+	color: black;
+	padding: 3px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover,
+.sub-dropdown-btn:hover,
+.sub-dropdown-content a:hover {
+	background-color: #7f787f;
+}
+
+.show {
+	display: block;
+}
+
+.sub-dropdown-container {
+	border: 1px solid;
+	border-color: #ddd #999 #999 #ddd;
+	position: relative;
+}
+
+.sub-dropdown-content {
+	min-width: 85px;
+	left: 95%;
+	top: 0;
+	width: 100%;
+}
+
+// footer
+
+.footer {
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	background-color: #006494;
+}
+
+.footer .container {
+	max-width: 98%;
+	margin: 0 auto;
+}
+
+.footer p {
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#footer-author {
+	font-family: 'roboto', sans-serif;
+	color: #5dadec;
+	font-size: 14.8px;
+}
+
+#footer-author a {
+	color: inherit;
+	/* Warna anchor mengikuti warna dari #footer-author */
+	text-decoration: none;
+}
+
+#footer-author a:hover {
+	color: #011557;
+	/* Warna saat di-hover mengikuti warna dari #footer-author */
+}
+
+#footer-jekyll {
+	font-family: 'roboto', sans-serif;
+	color: #5dadec;
+	font-size: 14.8px;
+}
+
+#footer-jekyll a {
+	color: inherit;
+	/* Warna anchor mengikuti warna dari #footer-jekyll */
+	text-decoration: none;
+}
+
+#footer-jekyll a:hover {
+	color: #d50202;
+	/* Warna saat di-hover mengikuti warna dari #footer-jekyll */
+}
+
+// end footer
+
+// post list
+.post_list,
+.tag_list,
+.post_content {
+	background: #8d99ae;
+	border-width: 2px;
+	border-style: ridge groove groove ridge;
+	border-color: #7f787f #fff8ff #fff8ff #7f787f;
+}
+
+.post_list {
+	width: 70.2%;
+	margin: 0 auto;
+	min-height: 150px;
+	max-height: 150px;
+	overflow-y: scroll;
+	display: inline-block;
+
+	ul {
+		list-style: none;
+
+		li {
+			display: inline-block;
+			margin: 10px;
+			max-width: 16ch;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			text-align: center;
+
+			img {
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 8px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+		}
+	}
+}
+
+.tag_list {
+	padding-top: 7px;
+	width: 28%;
+	margin: 0 auto;
+	min-height: 150px;
+	max-height: 150px;
+	overflow-y: scroll;
+	display: inline-block;
+
+	img {
+		height: 16px;
+		width: 16px;
+		margin: -2px 5px;
+	}
+
+	a {
+		text-decoration: none;
+		color: #22223b;
+	}
+
+	ul {
+		li {
+			max-width: 27ch;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+}
+
+#tag-list {
+	background: transparent url(/assets/img/pixel-alt.png) repeat-y 15px 0;
+}
+
+#tag-list li {
+	padding: 0 0 0 2px;
+}
+
+#tag-list li a {
+	background: #8d99ae;
+	display: block;
+}
+
+#tag-list li ul li {
+	background: transparent url(/assets/img/pixel-alt.png) repeat-x 0 8px;
+	margin: 4px 0 4px 13px;
+	padding: 0 0 0 20px;
+}
+
+.post_total {
+
+	.left,
+	.right {
+		border: 1px solid;
+		border-color: #888888 #dadada #dadada #888888;
+		display: inline-block;
+		padding: 1px 3px;
+	}
+
+	.left {
+		width: 33%;
+		margin-left: 2px;
+	}
+
+	.right {
+		width: 64%;
+		margin-right: 2px;
+	}
+}
+
+.post_content {
+	position: relative;
+	width: 98.5%;
+	min-height: 600px;
+	max-height: 600px;
+	padding: 2px;
+	margin: 0 auto;
+	overflow-y: scroll;
+	overflow-x: scroll;
+
+	p {
+		line-height: 150%;
+		margin-bottom: 15px;
+	}
+
+	a {
+		color: #0000ff;
+		margin-bottom: 15px;
+	}
+
+	h1 {
+		font-size: 20px;
+		font-weight: 700;
+		margin: 50px 0 10px 0;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: 700;
+		margin: 25px 0 5px 0;
+	}
+
+	em {
+		font-style: italic;
+	}
+
+	blockquote {
+		padding: 0 0 0 15px;
+		margin: 15px 5px;
+		border-left: 8px solid #000000;
+	}
+
+	strong {
+		font-weight: 700;
+	}
+
+	hr {
+		border-top: 3px solid #333333;
+		border-left: 0;
+	}
+
+	ul {
+		list-style: square;
+		margin: 0 0 15px 30px;
+
+		li {
+			padding: 5px;
+
+			ul {
+				margin: 10px 0 0 15px;
+
+				li {
+					padding: 5px;
+				}
+			}
+		}
+	}
+
+	ol {
+		list-style: decimal-leading-zero;
+		margin: 0 0 15px 30px;
+
+		li {
+			padding: 5px;
+
+			ul {
+				margin: 10px 0 0 15px;
+
+				li {
+					padding: 5px;
+				}
+			}
+		}
+	}
+
+	table,
+	th,
+	td {
+		border: 1px solid #222222;
+		padding: 2px;
+	}
+
+	pre {
+		margin-bottom: 15px;
+	}
+}
+
+.hljs {
+	background: #fff8ff;
+}
+
+.footer {
+	font-size: 12px;
+	margin: 30px 0 10px 0;
+
+	p {
+		text-align: center;
+
+		a {
+			color: #24244a;
+		}
+	}
+}
+
+.donate {
+	float: right;
+	padding: 0 3px 0 0;
+
+	p {
+		text-align: right;
+		word-break: break-word;
+		position: relative;
+		max-width: 98%;
+	}
+}
+
+/* style untuk tombol saweria */
+.saweria {
+	display: inline-flex;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	transition: transform 0.2s;
+}
+
+.saweria:active {
+	transform: translateY(2px);
+}
+
+/* end of style for tombol saweria */
+
+/* style untuk post */
+.post-humum-style {
+	position: relative;
+	left: 0.09em;
+}
+
+.post-hkhusus-style {
+	@extend .post-humum-style;
+	bottom: 0.05em;
+}
+
+.post-p-style {
+	position: relative;
+	margin-left: 0.5em;
+	max-width: 98%;
+}
+
+/* end of style for post */
+
+/* style untuk profile */
+.bg-container {
+	text-align: center;
+	margin-top: 15px;
+	position: relative;
+}
+
+.profile-img {
+	border-radius: 50%;
+	position: absolute;
+	width: 20vw;
+	height: auto;
+	max-width: 150px;
+	transform: translate(-50%, -55%);
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+}
+
+.background-img {
+	position: relative;
+	width: 98%;
+	z-index: 1;
+	bottom: 1vh;
+	margin: 0 auto;
+}
+
+.profile-name {
+	h1 {
+		font-family: audiowide, comfortaa, sans-serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: left;
+		margin: 0;
+		position: relative;
+		left: .5em;
+		top: .3em;
+		bottom: .2em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #24244a;
+	}
+}
+
+.custom-button {
+	display: flex;
+	margin: 5px auto -20px 10px;
+	padding: 5px 10px;
+	font-size: 13px;
+	color: #023b55;
+	background-color: rgb(0, 255, 221);
+	border: 1 solid #ddd #999 #999 #ddd;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.custom-button:hover {
+	color: #3a0101;
+	background-color: #8c00ff;
+}
+
+.custom-button:active {
+	transform: translateY(2px);
+	/* geser tombol 2px ke bawah */
+}
+
+.custom-button:focus {
+	outline: none;
+	/* banish outline focus */
+}
+
+// end profile style
+
+// form style
+.form-container {
+	max-width: 400px;
+	background-color: #bfb8bf;
+	border: 2px solid #ddd #999 #999 #ddd;
+	border-radius: 1px;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 5px auto 0 auto;
+
+	p {
+		@extend .form-container;
+		font-family: comfortaa, sans-serif;
+		font-size: 15px;
+		font-weight: bolder;
+		color: #5c5b5b;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+	width: calc(100% - 12px);
+	padding: 8px;
+	border: 1px solid #ddd #999 #999 #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	background-color: #8d99ae;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #080708;
+	/* Warna teks placeholder */
+}
+
+.form-group textarea {
+	resize: vertical;
+}
+
+.submit-btn {
+	background-color: #008ca5;
+	color: #080708;
+	padding: 10px 20px;
+	border: 1px solid #ddd #999 #999 #ddd;
+	border-radius: 1px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.submit-btn:hover {
+	background-image: linear-gradient(45deg, #5c00c5, #05ffde);
+}
+
+.submit-btn:active {
+	transform: translateY(2px);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+// end form style
+
+@media (max-width: 768px) {
+	.profile-img {
+		width: 15vw;
+		max-width: 100px;
+		top: 42%;
+	}
+
+	.background-img {
+		bottom: .8em;
+	}
+}
+
+@media (max-width: 468px) {
+	.profile-img {
+		width: 15vw;
+		max-width: 100px;
+		top: 42%;
+	}
+
+	.background-img {
+		bottom: .8em;
+	}
+}
+
+@media (max-width: 368px) {
+	.profile-img {
+		width: 15vw;
+		max-width: 100px;
+		top: 38%;
+	}
+
+	.background-img {
+		bottom: .8em;
+	}
+}
+
+@media (max-width: 768px) {
+	.form-container {
+		position: relative;
+		top: -5px;
+		margin: 6px 0 auto;
+	}
+}
+
+@media (max-width: 468px) {
+	.form-container {
+		position: relative;
+		top: -8px;
+		margin: 8px 0 9px;
+	}
+}
+
+@media (max-width: 368px) {
+	.form-container {
+		position: relative;
+		top: -10px;
+		margin: 10px 0 11px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.content {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.content {
+		width: 90%;
+	}
+
+	.post_content {
+		width: 98%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.post_content {
+		width: 97%;
+	}
+}
+
+@media only screen and (max-width: 810px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	.post_total {
+		.left {
+			width: 37%;
+		}
+
+		.right {
+			float: right;
+			width: 60%;
+		}
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.tag_list {
+		width: 99%;
+	}
+
+	.post_list {
+		width: 99%;
+		float: left;
+	}
+
+	.post_total {
+		.left {
+			width: 36%;
+		}
+
+		.right {
+			float: right;
+			width: 60%;
+		}
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	.tag_list {
+		width: 98.7%;
+	}
+
+	.post_list {
+		width: 98.7%;
+		float: left;
+	}
+
+	.post_total {
+		.left {
+			width: 35.7%;
+		}
+	}
+}
+
+@media only screen and (max-width: 520px) {
+
+	.post_total,
+	.foto {
+		.left {
+			width: 34.5%;
+		}
+	}
+}
+
+@media only screen and (max-width: 410px) {
+
+	.post_total,
+	.foto {
+		.left {
+			width: 34%;
+		}
+	}
+}
+
+@media only screen and (max-width: 375px) {
+
+	.post_total,
+	.foto {
+		.left {
+			width: 33%;
+		}
+	}
+}
+
+::-webkit-scrollbar {
+	width: 16px;
+}
+
+/* this targets the default scrollbar (compulsory) */
+::-webkit-scrollbar-track {
+	background-image: url("/assets/img/track.png");
+	background-repeat: repeat-x repeat-y;
+}
+
+/* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+	background-color: #cccccc;
+	border-width: 2px;
+	border-style: groove ridge ridge groove;
+	border-color: #fff8ff #000000 #000000 #fff8ff;
+}
+
+/* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+	background-color: #cccccc;
+	border-width: 2px;
+	border-style: groove ridge ridge groove;
+	border-color: #fff8ff #000000 #000000 #fff8ff;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	&:vertical:decrement {
+		background-image: url("/assets/img/up.png");
+	}
+
+	&:vertical:increment {
+		background-image: url("/assets/img/down.png");
+	}
+
+	&:horizontal:decrement {
+		background-image: url("/assets/img/left.png");
+	}
+
+	&:horizontal:increment {
+		background-image: url("/assets/img/right.png");
+	}
+
+	&:active {
+		background-position: 1px 2px;
+	}
+}
+
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+	background-color: #cacaca;
+}
+
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */

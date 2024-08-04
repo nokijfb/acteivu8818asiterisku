@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
+	
+	<title>Download-Curriculum_vitae</title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/002.css">
+	
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+	<script src="/assets/js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="default_title">
+			<a href="/" style="text-decoration: none;">
+				<img src="/assets/img/mycomputer.png" alt="comp_icon" />
+				
+				<h1>xwindows95</h1>
+				
+			</a>
+		</div>
+		<div class="dropdown-container">
+    <button class="dropdown-btn">About</button>
+    <div class="dropdown-content">
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">learned</button>
+            <div class="sub-dropdown-content">
+                <a href="https://www.dicoding.com/users/xgilarb/academies" target="_blank">Dicoding</a>
+                <a href="https://www.cloudskillsboost.google/public_profiles/a9569001-6c56-4459-9e2f-05bc33107a93" target="_blank">Google Cloud</a>
+            </div>
+        </div>
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">Me</button>
+            <div class="sub-dropdown-content">
+                <a href="/me">myBio</a>
+                <a href="https://x.com/xgilarb" target="_blank">X</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dropdown-container">
+    <button class="dropdown-btn">Projects</button>
+    <div class="dropdown-content">
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">Webdevs</button>
+            <div class="sub-dropdown-content">
+                <a href="https://github.com/xgilarb/xpscholarship" target="_blank">Scholars...</a>
+                <a href="/soon_for_now_404">他のウェブ</a>
+                <a href="/soon_for_now_404">他のツール</a>
+                <a href="/soon_for_now_404">APIs</a>
+                <a href="/soon_for_now_404">POS</a>
+                <a href="/soon_for_now_404">HelpDesk</a>
+                <a href="/soon_for_now_404">E-comme...</a>
+                <a href="/soon_for_now_404">DMS</a>
+                <a href="/soon_for_now_404">CRM</a>
+                <a href="/soon_for_now_404">HRIS</a>
+                <a href="/soon_for_now_404">HRMS</a>
+                <a href="/soon_for_now_404">IMS</a>
+                <a href="/soon_for_now_404">PMS</a>
+                <a href="/soon_for_now_404">LMS</a>
+                <a href="/soon_for_now_404">HCM</a>
+                <a href="/soon_for_now_404">Serverless</a>
+                <a href="/soon_for_now_404">RT-Apps</a>
+                <a href="/soon_for_now_404">Microserv...</a>
+                <a href="/soon_for_now_404">WMS</a>
+                <a href="/soon_for_now_404">SCM</a>
+                <a href="/soon_for_now_404">ERP</a>
+            </div>
+        </div>
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">Gamedevs</button>
+            <div class="sub-dropdown-content">
+                <a href="/soon_for_now_404">Milesoff</a>
+                <a href="/soon_for_now_404">Citynowhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dropdown-container">
+    <button class="dropdown-btn">Contact</button>
+    <div class="dropdown-content">
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">MyContact?</button>
+            <div class="sub-dropdown-content">
+                <a href="/contact">Need Help? </a>
+                <a href="https://github.com/xgilarb" target="_blank">Visit MyGithub</a>
+            </div>
+        </div>
+        <div class="sub-dropdown-container">
+            <button class="sub-dropdown-btn">Kuresains</button>
+            <div class="sub-dropdown-content">
+                <a href="https://kuresains.itch.io" target="_blank">Website</a>
+                <a href="https://x.com/kuresains" target="_blank">Kuresains X</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- sekat biar gak gabung-->
+<br>
+
+<script src="/assets/js/topbar.js"></script>
+		<div class="tag_list">
+			<ul id="tag-list">
+				<li><a href="/"><img src="/assets/img/disk.png" alt="disk" />(Blog/Gillar)</a>
+					<ul>
+						
+						
+						<li><a href="/tag/game/" title="game"><img
+									src="/assets/img/folder.ico" alt="folder" />game</a></li>
+						
+						<li><a href="/tag/retro/" title="retro"><img
+									src="/assets/img/folder.ico" alt="folder" />retro</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="post_list">
+			
+			<ul>
+				
+				<li><a href="/20230727/Perkembangan-NES" title="Perkembangan NES"><img src="/assets/img/file.ico"
+							title="Perkembangan NES" />Perkembangan NES</a></li>
+				
+				<li><a href="/20230725/Evolusi-Teknologi-Retro" title="Evolusi Teknologi Retro"><img src="/assets/img/file.ico"
+							title="Evolusi Teknologi Retro" />Evolusi Teknologi Retro</a></li>
+				
+			</ul>
+			
+		</div>
+		<div class="post_total">
+			
+			<div class="left">2 object(s)</div>
+			
+			<div class="right">&nbsp;</div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="post_title">
+			<img src="/assets/img/file.png" />
+			<h1>Download-Curriculum_vitae</h1>
+			<a href="/">
+				<div class="btn"><span class="fa fa-times"></span></div>
+			</a>
+			<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
+			<div class="btn"><span class="fa fa-window-minimize"></span></div>
+		</div>
+		<ul class="topbar">
+			<li>June 27, 2024</li>
+		</ul>
+		<div class="post_content">
+			<div style="text-align: center; margin-top: 15px;">
+    <img src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/small/avatar/dos-044478ebd6698654229f55f086b2b4c620240627222645.png" alt="Profile Image" style="border-radius: 50%; width: 180px; height: 180px;">
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://drive.google.com/uc?export=download&id=1EbmKNTl1imlUhbddKAogDTQ-SDU-8rA-" download>
+        <img src="https://img.shields.io/badge/Download%20CV-40E0D0?style=for-the-badge&logo=appveyor" alt="Download CV">
+    </a>
+</div>
+
+<div class="custom-font" style="padding: 10px; margin: 5 auto; max-width: 400%; color: #050317;">
+
+   <h1 class="me-color">Gillar Ajie Prasatya</h1>
+
+   <p>Date of Birth: 29 - July - 1993</p>  
+   <p>Domisili: Ds. Mandalawangi, Cipatat, Kab. Bandung Barat</p>  
+   <p>Phone: +62-857-1000-3318</p>  
+   <p>Website: <a href="https://xpynim.github.io" style="text-decoration: none;" target="_blank">xpynim.github.io</a></p>  
+   <p>Email: <a href="mailto:xpynim@gmail.com" style="text-decoration: none;" target="_blank">xpynim@gmail.com</a></p>  
+   <p>Akun X: <a href="https://x.com/xpynim" style="text-decoration: none;" target="_blank">@xpynim</a></p>
+
+   <h2 class="me-color"> About Me </h2>
+
+   <p>Seorang customer service profesional yang berpengalaman kurang lebih selama 10 tahun, ahli dalam<br> menyelesaikan keluhan dan membangun relasi. Seorang yang analitis, problem solver dan berdedikasi tinggi terhadap pekerjaan. Dengan pengalaman dan ekspertasi yang dimiliki, saya siap memberikan kontribusi terbaik<br> bagi perusahaan.</p>
+
+   <h2 class="me-color">Work Experience</h2>
+
+   <h3> May 2023 — Currently</h3>
+
+   <h4 class="me-color">Self-employed | West Java</h4><br>  
+
+   <ul>
+      <li>Mengembangkan Web Application dari sisi Backend dan Frontend</li>
+      <li>Mengembangkan Mobile dan Desktop Video Games</li>
+      <li>Membuat dan menjual produk Batagor mie di kedai milik pribadi</li>
+   </ul>
+
+   <h3>April 2021 — May 2023</h3>
+
+   <h4 class="me-color">Galaxy Consultant di PT ACCENTUATES | DKI Jakarta</h4><br>  
+
+   <ul>
+      <li>Menangani keluhan customer dan dealer terkait produk home appliances, audiovisual, dan smartphone samsung melalui inbound call dan chat whatsapp</li>
+      <li>Membuat SAP orderbook report berupa inhome service, stock service, dan pickup service untuk customer dan dealer</li>
+      <li>Membuat SAP report incident history per-customer / dealer yang ditangani</li>
+      <li>Melakukan followup terkait progress perbaikan perangkat inhome service dan atau stock service melalui outbound call dan chat whatsapp</li>
+      <li>Mempromosikan produk-produk dan layanan samsung via outbound call dan chat</li>
+   </ul>
+
+   <h3>Juli 2013 — April 2021</h3>
+
+   <h4 class="me-color">Customer Service Consultant di PT Intrias Mandiri Sejati | West Java</h4><br>  
+
+   <ul>
+      <li>Menangani dan menyelesaikan keluhan customer secara tatap muka terkait penggunaan smartphone Samsung</li>
+      <li>Menyusun laporan harian permasalahan smartphone pelanggan yang mengunjungi Samsung Experience Store</li>
+      <li>Melakukan upgrade software perangkat customer</li>
+      <li>Aktif mempromosikan produk-produk gadget Samsung</li>
+      <li>Melakukan sesi edukasi / training tentang penggunaan smartphone samsung (fitur/teknologi terbaru, userguide, accessibility, dan lainnya)</li>
+   </ul>
+
+   <h2 class="me-color">Education History</h2><br>
+
+   <h4>Konstruksi Badan Pesawat Udara</h4><br>  
+
+   <ul>
+      <li><b>Institution:</b> SMK Negeri 12 Bandung</li>  
+      <li><b>Year of Graduation:</b> 2011</li>
+   </ul>
+
+   <h2 class="me-color">Foreign Language</h2><br>
+
+   <h4>English</h4><br>
+
+   <ul>
+      <li>Spoken - 7/10</li>  
+      <li>Written - 9/10</li>
+   </ul>
+
+   <h2 class="me-color">Skills & Expertise</h2><br>
+
+   <h4>Customer Service Skills</h4><br>  
+
+   <ul>
+      <li>Problem Solving Skills</li>
+      <li>Critical Thinking</li>
+      <li>Excellent Communication Skills</li>
+   </ul>
+
+   <h4>IT Skills</h4><br>  
+
+   <ul>
+      <li><b>Web lang :</b> HTML, CSS, Javascript</li>
+      <li><b>Other lang :</b> Ruby, GDScript, SQLite</li>
+      <li><b>Framework :</b> Jekyll, RoR, Godot Engine</li>
+      <li><b>UIUX Editing :</b> Canva, Figma</li>
+   <ul>
+
+			
+			<br>
+<hr>
+<br>
+<div class="donate">
+	<p>Do you like my post?? How about buy me a coffee?<br>
+		I'll appreciate it!</p>
+	<p>Use this button <a href="https://saweria.co/gilarb" class="saweria"
+			style="width: 70px; height: 16px; padding-top: 5px;" target="_blank"><img
+				src="https://img.shields.io/badge/%20saweria%20-grey?&logo=gitlab" style="width: 70px; height: 16px;"
+				alt="Saweria Badge"></a> or Sendme <span style="font-weight: bold;">ethereum (ETH) or any ERC-20 tokens
+		</span><br>to myWallet <i class="fa fa-btc"></i> <a href="https://ibb.co.com/wzH0sF4"
+			style="text-decoration: none;" target="_blank"><span
+				style="color: #0a301c;">0x966967A381b2b8F71d5CCeB87aFB2332251d853f</span></a><br>Please note if you send
+		anything other than <strong>ETH</strong> (such as other ERC-20 tokens) it will remain as ERC-20 tokens upon
+		receipt.</p>
+</div>
+			
+		</div>
+	</div>
+	
+	<script src="/assets/js/001.js"></script>
+	<script src="/assets/js/002.js"></script>
+	<footer class="footer">
+		<div class="container">
+			<p>
+				© 2023-2024 <span id="footer-author"><a href="https://github.com/xgilarb">Gillar Ajie
+						Prasatya </a></span>| Powered by <span id="footer-jekyll"><a
+						href="https://jekyllrb.com/">jekyll</a></span>
+			</p>
+		</div>
+	</footer>
+	<br>
+</body>
+<!-- i use the theme of https://github.com/h01000110/windows-95 | so i'll give credit to him/her, so if you want to use my theme, please just fork from his/her theme not this one, thanks.-->
+</html>

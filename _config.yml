@@ -1,0 +1,25 @@
+permalink: /:year:month:day/:title
+url: "https://xgilarb.pages.dev"
+baseurl: /
+
+# variables
+name: xwindows95
+description: Retro Windows 1995 gillar's personal blog
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE", "vendor"]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true

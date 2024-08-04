@@ -1,0 +1,19 @@
+current directory: /home/gilarb/fswdevs/nongit/ongoing/xpynim_log/vendor/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+/home/gilarb/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/gilarb/fswdevs/nongit/ongoing/xpynim_log/vendor/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240627-15928-vldr7c sitelibdir\=./.gem.20240627-15928-vldr7c clean
+
+current directory: /home/gilarb/fswdevs/nongit/ongoing/xpynim_log/vendor/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240627-15928-vldr7c sitelibdir\=./.gem.20240627-15928-vldr7c
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/gilarb/fswdevs/nongit/ongoing/xpynim_log/vendor/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240627-15928-vldr7c sitelibdir\=./.gem.20240627-15928-vldr7c install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240627-15928-vldr7c/debug
+
+current directory: /home/gilarb/fswdevs/nongit/ongoing/xpynim_log/vendor/ruby/3.3.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240627-15928-vldr7c sitelibdir\=./.gem.20240627-15928-vldr7c clean

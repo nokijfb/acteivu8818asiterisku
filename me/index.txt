@@ -1,0 +1,103 @@
+---
+layout: me
+title: Download-Curriculum_vitae
+date: 2024-06-27
+---
+
+<div style="text-align: center; margin-top: 15px;">
+    <img src="https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/small/avatar/dos-044478ebd6698654229f55f086b2b4c620240627222645.png" alt="Profile Image" style="border-radius: 50%; width: 180px; height: 180px;">
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="https://drive.google.com/uc?export=download&id=1EbmKNTl1imlUhbddKAogDTQ-SDU-8rA-" download>
+        <img src="https://img.shields.io/badge/Download%20CV-40E0D0?style=for-the-badge&logo=appveyor" alt="Download CV">
+    </a>
+</div>
+
+<div class="custom-font" style="padding: 10px; margin: 5 auto; max-width: 400%; color: #050317;">
+
+   <h1 class="me-color">Gillar Ajie Prasatya</h1>
+
+   <p>Date of Birth: 29 - July - 1993</p>  
+   <p>Domisili: Ds. Mandalawangi, Cipatat, Kab. Bandung Barat</p>  
+   <p>Phone: +62-857-1000-3318</p>  
+   <p>Website: <a href="https://xpynim.github.io" style="text-decoration: none;" target="_blank">xpynim.github.io</a></p>  
+   <p>Email: <a href="mailto:xpynim@gmail.com" style="text-decoration: none;" target="_blank">xpynim@gmail.com</a></p>  
+   <p>Akun X: <a href="https://x.com/xpynim" style="text-decoration: none;" target="_blank">@xpynim</a></p>
+
+   <h2 class="me-color"> About Me </h2>
+
+   <p>Seorang customer service profesional yang berpengalaman kurang lebih selama 10 tahun, ahli dalam<br> menyelesaikan keluhan dan membangun relasi. Seorang yang analitis, problem solver dan berdedikasi tinggi terhadap pekerjaan. Dengan pengalaman dan ekspertasi yang dimiliki, saya siap memberikan kontribusi terbaik<br> bagi perusahaan.</p>
+
+   <h2 class="me-color">Work Experience</h2>
+
+   <h3> May 2023 — Currently</h3>
+
+   <h4 class="me-color">Self-employed | West Java</h4><br>  
+
+   <ul>
+      <li>Mengembangkan Web Application dari sisi Backend dan Frontend</li>
+      <li>Mengembangkan Mobile dan Desktop Video Games</li>
+      <li>Membuat dan menjual produk Batagor mie di kedai milik pribadi</li>
+   </ul>
+
+   <h3>April 2021 — May 2023</h3>
+
+   <h4 class="me-color">Galaxy Consultant di PT ACCENTUATES | DKI Jakarta</h4><br>  
+
+   <ul>
+      <li>Menangani keluhan customer dan dealer terkait produk home appliances, audiovisual, dan smartphone samsung melalui inbound call dan chat whatsapp</li>
+      <li>Membuat SAP orderbook report berupa inhome service, stock service, dan pickup service untuk customer dan dealer</li>
+      <li>Membuat SAP report incident history per-customer / dealer yang ditangani</li>
+      <li>Melakukan followup terkait progress perbaikan perangkat inhome service dan atau stock service melalui outbound call dan chat whatsapp</li>
+      <li>Mempromosikan produk-produk dan layanan samsung via outbound call dan chat</li>
+   </ul>
+
+   <h3>Juli 2013 — April 2021</h3>
+
+   <h4 class="me-color">Customer Service Consultant di PT Intrias Mandiri Sejati | West Java</h4><br>  
+
+   <ul>
+      <li>Menangani dan menyelesaikan keluhan customer secara tatap muka terkait penggunaan smartphone Samsung</li>
+      <li>Menyusun laporan harian permasalahan smartphone pelanggan yang mengunjungi Samsung Experience Store</li>
+      <li>Melakukan upgrade software perangkat customer</li>
+      <li>Aktif mempromosikan produk-produk gadget Samsung</li>
+      <li>Melakukan sesi edukasi / training tentang penggunaan smartphone samsung (fitur/teknologi terbaru, userguide, accessibility, dan lainnya)</li>
+   </ul>
+
+   <h2 class="me-color">Education History</h2><br>
+
+   <h4>Konstruksi Badan Pesawat Udara</h4><br>  
+
+   <ul>
+      <li><b>Institution:</b> SMK Negeri 12 Bandung</li>  
+      <li><b>Year of Graduation:</b> 2011</li>
+   </ul>
+
+   <h2 class="me-color">Foreign Language</h2><br>
+
+   <h4>English</h4><br>
+
+   <ul>
+      <li>Spoken - 7/10</li>  
+      <li>Written - 9/10</li>
+   </ul>
+
+   <h2 class="me-color">Skills & Expertise</h2><br>
+
+   <h4>Customer Service Skills</h4><br>  
+
+   <ul>
+      <li>Problem Solving Skills</li>
+      <li>Critical Thinking</li>
+      <li>Excellent Communication Skills</li>
+   </ul>
+
+   <h4>IT Skills</h4><br>  
+
+   <ul>
+      <li><b>Web lang :</b> HTML, CSS, Javascript</li>
+      <li><b>Other lang :</b> Ruby, GDScript, SQLite</li>
+      <li><b>Framework :</b> Jekyll, RoR, Godot Engine</li>
+      <li><b>UIUX Editing :</b> Canva, Figma</li>
+   <ul>
