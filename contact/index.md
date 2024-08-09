@@ -5,7 +5,7 @@ date: 2024-07-07
 ---
 
 <div class="form-container">
-	<p>Need help with your WebApps Development? Please fill out the form below</p>
+	<p>Need help with your Development? Please fill out the form below</p>
 	<form action="https://formspree.io/f/mzzpzdre" method="POST" enctype="multipart/form-data">
 		<div class="form-group">
 			<label for="email">Your email:</label><br>
